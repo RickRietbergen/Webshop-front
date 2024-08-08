@@ -1,17 +1,17 @@
 import { useState } from "react";
-import "../App.scss";
-import "../index.css";
+import "../../App.scss";
+import "../../index.css";
 
-function CustomerDashboard() {
+function CustomerSidebar() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="dashboard">
-        <div className="block"></div>
+      <div className="customer_sidebar">
+        <div className=""></div>
       </div>
     </>
   );
 }
 
-export default CustomerDashboard;
+export default CustomerSidebar;

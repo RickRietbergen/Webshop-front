@@ -1,9 +1,9 @@
-import Dashboard from "./components/customer/Dashboard";
+import CustomerDashboard from "./components/customer/Dashboard";
 
 function App() {
   return (
     <>
-      {/* <Dashboard /> */}
+      <CustomerDashboard />
     </>
   );
 }
