@@ -10,7 +10,7 @@ function CustomerDashboard() {
     <>
       <div className="customer_dashboard">
         <CustomerSidebar />
-        <div className="block"></div>
+        <div className="dashboard"></div>
       </div>
     </>
   );
